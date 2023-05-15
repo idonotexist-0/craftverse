@@ -42,13 +42,29 @@
             class="field-password"
             placeholder="Password"
           />
-          <p id="suggestion-pwReset" class="suggestion" style="display: none; transition: 0.4s;">
-            Forgot password? <a class="suggestion" href="pwReset.html">Reset it!</a>
+          <p
+            id="suggestion-pwReset"
+            class="suggestion"
+            style="display: none; transition: 0.4s"
+          >
+            Forgot password?
+            <a class="suggestion" href="pwReset.html">Reset it!</a>
           </p>
           <p class="suggestion">
             New member? <a class="suggestion" href="signup.html">Sign up</a>
           </p>
           <button class="submitBtn">Next</button>
+        </div>
+      </div>
+      <p class="text-divide">Or Login with</p>
+      <div class="card">
+        <div id="provider-google" class="card-item">
+          <img src="resources/google.png" alt="Google" class="google">
+          <p class="text-google">Google</p>
+        </div>
+        <div id="provider-facebook" class="card-item">
+          <img src="resources/facebook.png" alt="Google" class="facebook">
+          <p class="text-facebook">Facebook</p>
         </div>
       </div>
     </div>
